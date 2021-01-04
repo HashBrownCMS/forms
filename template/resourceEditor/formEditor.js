@@ -12,7 +12,10 @@ _.div({class: 'resource-editor resource-editor--form-editor'},
         
         ] : state.tab === 'overview' ? [
             _.div({class: 'resource-editor__welcome'},
-                _.h1('Forms'),
+                _.h1({class: 'resource-editor__welcome__heading'},
+                    state.title,
+                    _.span({class: `resource-editor__welcome__heading__icon fa fa-${state.icon}`})
+                ),
                 _.p('Click any item in the panel to edit it.'),
                 _.p('Use the context menu (right click or the ', _.span({class: 'fa fa-ellipsis-v'}), ' button) to perform other actions.'),
                 _.h2('Actions'),
