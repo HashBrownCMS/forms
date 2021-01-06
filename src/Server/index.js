@@ -11,4 +11,3 @@ namespace('Entity.Resource')
 library('forms', 'Forms', 'wpforms')
     .add(HashBrown.Entity.Resource.Form)
     .add(HashBrown.Controller.FormController);
-

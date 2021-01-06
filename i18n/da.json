@@ -1,0 +1,18 @@
+{
+    "Forms": "Formularer",
+    "Entries": "Indlæg",
+    "Allowed origin": "Tilladt afsender",
+    "The address from which submissions will be accepted. Leave blank to accept all.": "Adressen hvorfra indlæg vil blive accepteret. Efterlad feltet tomt for at acceptere alle.",
+    "Redirect URL": "Redelegeringsadressse",
+    "Redirect the client to this URL upon submission.": "Videresend brugeren til denne URL ved udfyldning af formularen.",
+    "Append": "Tilføj",
+    "Append this URL to the origin": "Tilføj denne URL til afsenderens URL",
+    "Inputs": "Felter",
+    "Add input": "Tilføj felt",
+    "Pattern": "Mønster",
+    "Rquired": "Påkrævet",
+    "Unique": "Unikt",
+    "Clear all entries": "Ryd alle indlæg",
+    "Are you sure you want to clear all entries?": "Er du sikker på, at du vil rydde alle indlæg?",
+    "Download a .CSV file containing all entries": "Download en .CSV-fil med alle indlæg"
+}
