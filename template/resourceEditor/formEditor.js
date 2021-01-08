@@ -20,8 +20,8 @@ _.div({class: 'resource-editor resource-editor--form-editor'},
                 _.p({localized: true}, 'Use the context menu (right click or the ⋮ button) to perform other actions.'),
                 _.h2({localized: true}, 'Actions'),
                 _.div({class: 'resource-editor__welcome__actions'},
-                    _.button({localized: true, class: 'widget widget--button condensed', onclick: _.onClickNew, title: 'Create a new form'}, 'New form'),
-                    _.button({localized: true, class: 'widget widget--button condensed hidden-mobile', onclick: _.onClickStartTour, title: 'Start a tour of the UI'}, 'Quick tour')
+                    _.button({localized: true, class: 'widget widget--button condensed', onclick: _.onClickNew}, 'New form'),
+                    _.button({localized: true, class: 'widget widget--button condensed hidden-mobile', onclick: _.onClickStartTour}, 'Quick tour')
                 )
             )
         

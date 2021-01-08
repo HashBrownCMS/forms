@@ -1,0 +1,8 @@
+{
+    "name": "Forms",
+    "description": "Form resource types for end user input",
+    "repository": "https://github.com/HashBrownCMS/forms.git",
+    "version": "1.4.0",
+    "author": "Jeppe Zapp",
+    "license": "MIT"
+}
